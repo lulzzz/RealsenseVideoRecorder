@@ -1,5 +1,5 @@
 # RealsenseVideoRecorder
-SDK for video recording by using Intel Realsense cameras D400
+SDK for video recording with various resolutions by using Intel Realsense 3D cameras D400
 
 * THIS CODE IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 * ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
