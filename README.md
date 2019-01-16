@@ -1,4 +1,4 @@
-# RealsenseVideoRecorder
+# RealsenseVideoRecorder C#, C++
 SDK for video recording with various resolutions by using Intel Realsense 3D cameras D400
 
 * THIS CODE IS PROVIDED "AS IS" WITHOUT WARRANTY OF
