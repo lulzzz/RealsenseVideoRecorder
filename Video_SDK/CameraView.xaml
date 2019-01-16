@@ -1,0 +1,21 @@
+﻿<Window x:Name="CameraWindow" x:Class="Video_SDK.CameraView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Video_SDK"
+             mc:Ignorable="d" 
+			 WindowStyle="SingleBorderWindow"
+		     Icon="Resources/gaitrite_icon.png"
+			 Left="{Binding MainWindowLeft, Mode=TwoWay}"
+			 Top="{Binding MainWindowTop, Mode=TwoWay}"
+             Title="{Binding MainWindowTitle, Mode=TwoWay}"
+			 ResizeMode="NoResize"		
+			 Loaded="mainWindow_Loaded"
+			 Closing="control_Closing"
+			 SizeToContent="WidthAndHeight">
+	<Grid x:Name="Display" Background="#FFA2A7AE" Width ="{Binding DisplayWidth, Mode=TwoWay}" Height="{Binding DisplayHeight, Mode=TwoWay}" >
+
+		<Image x:Name="imgColor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="{Binding ColorImageSource, Mode=OneWay}"/>
+	</Grid>
+</Window>
